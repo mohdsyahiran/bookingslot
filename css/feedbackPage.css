@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f0f2f5;
+    color: #333;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.feedback-list {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.feedback-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.feedback-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.feedback-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.feedback-header span {
+    font-size: 12px;
+}
+
+.emoji-rating {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.feedback-comment {
+    margin-top: 5px;
+    line-height: 1.4;
+    color: #333;
+}
+
+.feedback-user {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.user-emoji {
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+.user-name {
+    font-weight: bold;
+    color: #333;
+    font-size: 14px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination a {
+    color: #0073e6;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.pagination a.active {
+    background-color: #0073e6;
+    color: white;
+    border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+    body {
+        margin: 10px;
+    }
+
+    .feedback-item {
+        padding: 10px;
+    }
+
+    .feedback-header span {
+        font-size: 10px;
+    }
+
+    .emoji-rating {
+        font-size: 16px;
+    }
+
+    .feedback-comment {
+        margin-top: 5px;
+        font-size: 14px;
+    }
+
+    .feedback-user {
+        margin-top: 5px;
+    }
+
+    .user-name {
+        font-size: 12px;
+    }
+
+    .pagination a {
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+}
