@@ -11,10 +11,10 @@ $endDate = $input['endDate'];
 // $password = "Ayam1234";
 // $dbname = "saybat_bookingslot";
 
-$servername = "localhost:3306";
-$username = "root";
-$password = "";
-$dbname = "bookingslot";
+// $servername = "localhost:3306";
+// $username = "root";
+// $password = "";
+// $dbname = "bookingslot";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
