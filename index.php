@@ -7,13 +7,15 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+    
     <div class="calendar-container">
         <div class="date-display">
             <img src="tower.jpg" alt="TRX" class="background-image">
             <div class="date-info">
                 <div class="month-year" id="monthYear"></div>
                 <div class="date-number" id="dateNumber"></div>
-                <div class="today-button" onclick="goToToday()">Today</div>
+                <div class="today-button" onclick="goToToday()">Today</div><br>
+                <a href="feedback/index.php" class="today-button feedback-button">View Feedback</a>
             </div>
         </div>
         <div class="calendar">
@@ -30,7 +32,8 @@
         </div>
     </div>
     <footer>
-        <p>Created by <b>Syahiran Azizan</b><br><i>Camera Rental : G7X Mark III</i></p>
+        <p>Created by <b>Syahiran Azizan</b><br><i>Camera Rental : G7X Mark III</i></p><br>
+        <!-- <a href="feedback/index.php" class="feedback-button"><b>View Feedback</b></a> -->
     </footer>
     <script src="script.js"></script>
 </body>

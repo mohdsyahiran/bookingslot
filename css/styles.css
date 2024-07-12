@@ -214,29 +214,8 @@ footer p {
     margin: 0;
 }
 
-
-/* Feedback */
-.star-rating {
-    direction: rtl;
-    display: inline-block;
-    padding: 20px
-}
-
-.star-rating input[type=radio] {
-    display: none
-}
-
-.star-rating label {
-    color: #bbb;
-    font-size: 18px;
-    padding: 0;
-    cursor: pointer;
-    -webkit-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out
-}
-
-.star-rating label:hover,
-.star-rating label:hover~label,
-.star-rating input[type=radio]:checked~label {
-    color: #f2b600
+.feedback-button {
+    text-decoration: none; /* Remove underline */
+    font-family: monospace; /* Change font to monospace */
+    color: #f4f4f9;
 }
